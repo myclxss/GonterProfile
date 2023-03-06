@@ -1,0 +1,174 @@
+.titles {
+    padding-top: 180px;
+}
+
+.titles h1 {
+
+    text-align: center;
+    font-size: 140px;
+    line-height: 100px;
+    font-weight: 800;
+    font-family: 'Space Grotesk', sans-serif;
+    background: linear-gradient(94.23deg, #fccf87 12.41%, #ff8469 52.55%, #ffb85b 89.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: white 5px 1px;
+}
+.titles h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 550;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(207, 190, 157);
+    font-style: italic;
+}
+
+#content {
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+#content h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: wheat;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#content h3 span {
+    border-bottom: 2px solid #ffb85b;
+}
+
+#content p {
+    color: rgb(179, 178, 178);
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 600;
+}
+#content .permission-text{
+    font-size: 19px;
+    color: wheat;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#content .gallery-content {
+    overflow: hidden;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: rgb(255 90 90) 0 5px;
+}
+
+#content .gallary-spacing {
+    padding-top: 70px;
+}
+
+#content .swiper-pagination {
+    margin-top: 20px;
+    position: absolute;
+}
+
+#content .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid rgb(255 90 90);
+}
+
+#content .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: rgb(255 90 90);
+}
+.links{
+    padding-top: 60px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 30px;
+}
+.links a{
+    text-decoration: none;
+}
+.links .youtube{
+    color: rgb(255, 255, 255);
+    background-color: #ff3b3b50;
+    border-color: red;
+    border-style: solid;
+    border-radius: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    transition: 0.4s;
+}
+.links .youtube:hover{
+    transform: scale(0.8);
+  transition: all ease-in-out 0.4s;
+  filter: grayscale(20%);
+}
+.links .spigot{
+    color: rgb(255, 255, 255);
+    background-color: #ff9e309a;
+    border-color: #ff9f30;
+    border-style: solid;
+    border-radius: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    transition: 0.4s;
+}
+.links .spigot:hover{
+    transform: scale(0.8);
+  transition: all ease-in-out 0.4s;
+  filter: grayscale(20%);
+}
+.links .polymart{
+    color: rgb(255, 255, 255);
+    background-color: #03a09347;
+    border-color: #03a092;
+    border-style: solid;
+    border-radius: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    transition: 0.4s;
+}
+.links .polymart:hover{
+    transform: scale(0.8);
+  transition: all ease-in-out 0.4s;
+  filter: grayscale(20%);
+}
+.links li{
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media (max-width: 992px) {
+    .titles{
+        padding-top: 140px;
+    }
+    .titles h1 {
+        line-height: 40px;
+        font-size: 58px
+    }
+    .titles h2{
+        font-size: 20px;
+    }
+    #content{
+        padding-top: 60px;
+    }
+    #content h3{
+        font-size: 27px;
+    }
+    #content p{
+        font-size: 15px;
+    }
+    .links{
+        padding-top: 40px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-right: 30px;
+    }
+
+}
